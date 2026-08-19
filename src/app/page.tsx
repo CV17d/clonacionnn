@@ -8,7 +8,7 @@ export default function Home() {
       {/* Background Image */}
       <div className="background">
         {/* We use an img tag for background to keep it simple, or Next.js Image */}
-        <Image src="/bg.jpg" alt="Background" fill style={{ objectFit: 'cover' }} priority />
+        <Image src="/bg.jpeg" alt="Background" fill style={{ objectFit: 'cover' }} priority />
         <div className="background-overlay"></div>
       </div>
 
@@ -42,7 +42,7 @@ export default function Home() {
 
           {/* Video Area */}
           <div className="video-area">
-            <Image src="/thumbnail.jpg" alt="Video Thumbnail" fill style={{ objectFit: 'cover' }} priority />
+            <Image src="/thumbnail.jpeg" alt="Video Thumbnail" fill style={{ objectFit: 'cover' }} priority />
             
             <div className="subtitle-overlay">
               <p>Avengers, Assemble !</p>
