@@ -58,8 +58,8 @@ html {
 
 .glass-panel {
   background: rgba(70, 70, 70, 0.45);
-  backdrop-filter: blur(64px);
-  -webkit-backdrop-filter: blur(64px);
+  backdrop-filter: blur(120px);
+  -webkit-backdrop-filter: blur(120px);
   border: 1px solid rgba(255, 255, 255, 0.12);
   box-shadow: 0 30px 60px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.1);
 }
